@@ -46,4 +46,5 @@ nztm.test();
 ## Js Non-modular usage
 
 // module.exports = nztm2000;
+
 nztm2000.test();
