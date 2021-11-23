@@ -11,7 +11,7 @@ var ltlg = nztm2000.nztm_geod('1817224', '5675344');
 
 console.log(ltlg); // {lt: -39.04398599563426, ln: 175.50998657532008}
 
-var lglt = nztm2000.geod_nztm('-39.04398599','175.50998658');
+var eastingNorthing = nztm2000.geod_nztm('-39.04398599','175.50998658');
 
-console.log(lglt); // {ce: 1817224.0004226866, cn: 5675344.000490918}
+console.log(eastingNorthing); // {ce: 1817224.0004226866, cn: 5675344.000490918}
 ```
