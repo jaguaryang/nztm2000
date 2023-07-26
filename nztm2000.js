@@ -348,11 +348,10 @@ var nztm2000 = (function () {
      NZTM coordinate system
   */
 
-
  return {
-  nztm_geod: function (n, e) {
+  nztm_geod: function (e, n) {
     var nztm = get_nztm_projection();
-    var wgs84 = tm_geod(nztm, n, e);
+    var wgs84 = tm_geod(nztm, e, n);
     wgs84.lt *= rad2deg;
     wgs84.ln *= rad2deg;
     return wgs84;
